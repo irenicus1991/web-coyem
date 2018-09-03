@@ -1,0 +1,44 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+
+<!-- Cabecera -->
+<section class="page-section clearfix">
+  <div class="container">
+    <div class="intro">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'core/img/12.png' %}" alt="">
+      <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+        <h2 class="section-heading mb-4">
+          <span class="section-heading-lower">Diversas Obras</span>
+        </h2>
+        <p class="mb-3">Tenemos muchas obras y servicios realizados a una gran cantidad de clientes.
+        </p>
+        <div class="intro-button mx-auto">
+          <a class="btn btn-primary btn-xl" href="{% url 'services' %}">Conoce nuestro trabajo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Mensaje -->
+<section class="page-section cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <div class="cta-inner text-center rounded">
+          <h2 class="section-heading mb-4">
+            <span class="section-heading-upper">Compromiso total</span>
+            <span class="section-heading-lower">Garantizado</span>
+          </h2>
+          <p align="justify">COYEM LIMITADA es una empresa constructora. Nuestra filosofía es  involucrarnos en el o los  proyectos que ejecutamos, asesorando constantemente  a nuestros clientes en las posibles modificaciones y /o medidas correctivas del mismo que permitan mejorar el optimo resultado de este.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

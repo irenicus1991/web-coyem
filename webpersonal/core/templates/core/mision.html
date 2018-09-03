@@ -1,0 +1,45 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Visión y Misión{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/confianza.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-lower">Nuestra Misión</span>
+            </h2>
+            <p align="justify">Nuestra misión es comprometernos con el cliente de manera de garantizar  que sus requerimientos se cumplan con eficiencia, calidad, honestidad y confiabilidad. Desde el momento que asumimos un compromiso, nuestros pensamientos, energías y recursos se concentran en lograr resultados de calidad en el plazo acordado y con precios competitivos.</p>
+            <p align="justify">Para lograr nuestra misión, estamos en un mejoramiento continuo, entrenando, capacitando y  en un fuerte trabajo de motivación al personal, suponiendo como premisa  un potente  énfasis en la seguridad de nuestro personal y nuestras obras, también  trabajar en armonía con el entorno, cumplir con nuestros compromisos y obligaciones, tanto contractuales como financieros, principios que esta arraigados en la cultura de toda nuestra organización.</p>
+            <p align="justify">Nuestro principal recurso es el capital humano, nuestros trabajadores, clientes y proveedores</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="page-section about-heading">
+    <div class="container">
+      <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/vision.jpg' %}" alt="">
+      <div class="about-heading-content">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 mx-auto">
+            <div class="bg-faded rounded p-5">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">Nuestra Visión</span>
+              </h2>
+              <p align="justify">Deseamos convertirnos en colaboradores confiables de nuestros clientes, que cada obra encomendada cumpla y en lo posible supere sus expectativas, de manera que se sienta satisfecho y dispuesto a confiarnos el desarrollo de sus nuevos  proyectos.</p>
+              <p align="justify">Con ello queremos lograr a través de los años liderar un posicionamiento importante en la región  en el mercado de la construcción, montajes y ejecución de  obras civiles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
